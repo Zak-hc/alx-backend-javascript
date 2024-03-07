@@ -16,7 +16,8 @@ export default class HolbertonCourse {
       throw new TypeError('students must be an array of sstrings');
     }
   }
- get name() {
+
+  get name() {
     return this._name;
   }
 
@@ -45,7 +46,7 @@ export default class HolbertonCourse {
   }
 
   set students(c) {
-    if (Array.isArray(c) && c.every(e => typeof e === 'string')) {
+    if (Array.isArray(c) && c.every((e) => typeof e === 'string')) {
       this._students = c;
     } else {
       throw new TypeError('Students must be an array of strings');
