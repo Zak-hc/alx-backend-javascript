@@ -17,6 +17,6 @@ set floors(b) {
 this._floors = b;
 }
 evacuationWarningMessage() {
-return `Evacuate slowly the ${this._floors}`;
+return `Evacuate slowly the ${this._floors} floors`;
 }
 }
