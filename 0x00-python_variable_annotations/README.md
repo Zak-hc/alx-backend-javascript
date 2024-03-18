@@ -1,2 +1,2 @@
-# alx-backend-javascript
+# alx-backend py
 Short Specializations
