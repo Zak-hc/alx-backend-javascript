@@ -1,2 +1,1 @@
-# alx-backend-javascript
-Short Specializations
+# Javascript_Short Specializations
